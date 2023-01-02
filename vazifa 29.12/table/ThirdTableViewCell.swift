@@ -30,9 +30,10 @@ class ThirdTableViewCell: UITableViewCell {
         label2.translatesAutoresizingMaskIntoConstraints = false
         contentView.addSubview(label2)
         label2.topAnchor.constraint(equalTo: label1.bottomAnchor, constant: 10).isActive = true
-        label1.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: 20).isActive = true
-        label1.text = "Alarm, every day"
-        label1.font = .systemFont(ofSize: 15)
+        label2.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: 20).isActive = true
+        label2.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -10).isActive = true
+        label2.text = "Alarm, every day"
+        label2.font = .systemFont(ofSize: 15)
         
         img.translatesAutoresizingMaskIntoConstraints = false
         contentView.addSubview(img)

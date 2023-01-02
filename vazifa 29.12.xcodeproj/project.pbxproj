@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042F33F1296175E000BFF6E6 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F33F0296175E000BFF6E6 /* Header.swift */; };
 		04F2A7C5295E8AEE00662F14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2A7C4295E8AEE00662F14 /* AppDelegate.swift */; };
 		04F2A7C7295E8AEE00662F14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2A7C6295E8AEE00662F14 /* SceneDelegate.swift */; };
 		04F2A7C9295E8AEE00662F14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2A7C8295E8AEE00662F14 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042F33F0296175E000BFF6E6 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		04F2A7C1295E8AEE00662F14 /* vazifa 29.12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vazifa 29.12.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F2A7C4295E8AEE00662F14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F2A7C6295E8AEE00662F14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042F33EF2961757C00BFF6E6 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				042F33F0296175E000BFF6E6 /* Header.swift */,
+			);
+			path = header;
+			sourceTree = "<group>";
+		};
 		04F2A7B8295E8AEE00662F14 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 		04F2A7C3295E8AEE00662F14 /* vazifa 29.12 */ = {
 			isa = PBXGroup;
 			children = (
+				042F33EF2961757C00BFF6E6 /* header */,
 				04F2A7DA295E8B1E00662F14 /* main */,
 				04F2A7D9295E8B1400662F14 /* table */,
 				04F2A7D8295E8B0400662F14 /* utilites */,
@@ -178,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F2A7E0295E8B7E00662F14 /* FirstTableViewCell.swift in Sources */,
+				042F33F1296175E000BFF6E6 /* Header.swift in Sources */,
 				04F2A7E4295E8BD000662F14 /* ThirdTableViewCell.swift in Sources */,
 				04F2A7C9295E8AEE00662F14 /* ViewController.swift in Sources */,
 				04F2A7C5295E8AEE00662F14 /* AppDelegate.swift in Sources */,

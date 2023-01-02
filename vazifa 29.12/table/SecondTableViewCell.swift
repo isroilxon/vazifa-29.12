@@ -22,7 +22,7 @@ class SecondTableViewCell: UITableViewCell {
         contentView.addSubview(label)
         label.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 40).isActive = true
         label.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: 20).isActive = true
-        label.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: 10).isActive = true
+        label.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -10).isActive = true
         label.font = .systemFont(ofSize: 20)
         label.text = "other"
 
